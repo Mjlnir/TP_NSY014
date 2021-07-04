@@ -8,6 +8,7 @@ public class InformationImpl extends UnicastRemoteObject implements Information{
 		super();
 	}
 	public void SendMessage(String message) throws RemoteException {
+		System.out.println(message);
 		this.Message = message;
 	}
 	public String GetMessage() throws RemoteException {
