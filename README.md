@@ -16,5 +16,14 @@ Le serveur **REST** est maintenant en cours d'éxécution sur le port **8080** (
 Côté client il n'y a rien à faire mise à part exécuter la classe **Main()** et constater les résultats en console. Il est aussi possible d'effectuer les requêtes HTTP via postman / insomnia / php etc ... cf. https://github.com/Nemoo0/Java_RestFull_Service)
 - REST (Corentin) (Pour lancer l'application il suffit de soit créer un executable soit lancer le fichier Application.java.
 Ensuite il faut se rendre sur http://localhost:9093/employe pour voir le message. cf. https://github.com/CLemarechal/NSY014)
-- MOM (Aller dans le bin d'activemq. Executer la commande activemq start. Lancer le projet dans eclipse / intelliJ. Run la classe Mom et observer la console cf. https://github.com/AlexisL2607/TP_NSY014)
+- MOM (Aller dans Activemq puis bin et lancer la commande : Activemq start
+Lancer le projet Mom-Client-Producer
+Observer les messages envoyer sur le topic "cours-nys014"
+http://localhost:8161/admin/queues.jsp
+Les 5 messages du producer sont dans la queue
+Lancer le projet Mom-Client-Consumer
+Observer la réception des messages dans le terminal.
+Observer le changement sur le topic "cours-nys014"
+http://localhost:8161/admin/queues.jsp
+cf. https://github.com/AlexisL2607/TP_NSY014)
 - SOCKET (Lancer le serveur avant le client.)
