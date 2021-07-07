@@ -15,4 +15,4 @@ Démarrer le avec la commande :
 Le serveur **REST** est maintenant en cours d'éxécution sur le port **8080** ([À cette adresse](http://localhost:8080/))
 Côté client il n'y a rien à faire mise à part exécuter la classe **Main()** et constater les résultats en console. Il est aussi possible d'effectuer les requêtes HTTP via postman / insomnia / php etc ...)
 - MOM (Aller dans le bin d'activemq. Executer la commande activemq start. Lancer le projet dans eclipse / intelliJ. Run la classe Mom et observer la console cf. https://github.com/AlexisL2607/TP_NSY014)
-- SOCKET
+- SOCKET (Lancer le serveur avant le client.)
